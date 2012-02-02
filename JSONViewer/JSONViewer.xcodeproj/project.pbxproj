@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		252A56C714DA4346005207D4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252A56C614DA4346005207D4 /* Cocoa.framework */; };
+		252A56D114DA4346005207D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 252A56CF14DA4346005207D4 /* InfoPlist.strings */; };
+		252A56D314DA4346005207D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 252A56D214DA4346005207D4 /* main.m */; };
+		252A56D714DA4346005207D4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 252A56D514DA4346005207D4 /* Credits.rtf */; };
+		252A56DA14DA4346005207D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 252A56D914DA4346005207D4 /* AppDelegate.m */; };
+		252A56DD14DA4346005207D4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 252A56DB14DA4346005207D4 /* MainMenu.xib */; };
+		252A56E414DA43AB005207D4 /* JSONViewerWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 252A56E314DA43AB005207D4 /* JSONViewerWindow.xib */; };
+		252A56E714DA4402005207D4 /* JSONViewerWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 252A56E614DA4402005207D4 /* JSONViewerWindowController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		252A56C214DA4346005207D4 /* JSONViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		252A56C614DA4346005207D4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		252A56C914DA4346005207D4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		252A56CA14DA4346005207D4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		252A56CB14DA4346005207D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		252A56CE14DA4346005207D4 /* JSONViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSONViewer-Info.plist"; sourceTree = "<group>"; };
+		252A56D014DA4346005207D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		252A56D214DA4346005207D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		252A56D414DA4346005207D4 /* JSONViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSONViewer-Prefix.pch"; sourceTree = "<group>"; };
+		252A56D614DA4346005207D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		252A56D814DA4346005207D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		252A56D914DA4346005207D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		252A56DC14DA4346005207D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		252A56E314DA43AB005207D4 /* JSONViewerWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSONViewerWindow.xib; sourceTree = "<group>"; };
+		252A56E514DA4402005207D4 /* JSONViewerWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONViewerWindowController.h; sourceTree = "<group>"; };
+		252A56E614DA4402005207D4 /* JSONViewerWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONViewerWindowController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		252A56BF14DA4346005207D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252A56C714DA4346005207D4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		252A56B714DA4346005207D4 = {
+			isa = PBXGroup;
+			children = (
+				252A56CC14DA4346005207D4 /* JSONViewer */,
+				252A56C514DA4346005207D4 /* Frameworks */,
+				252A56C314DA4346005207D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		252A56C314DA4346005207D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				252A56C214DA4346005207D4 /* JSONViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		252A56C514DA4346005207D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				252A56C614DA4346005207D4 /* Cocoa.framework */,
+				252A56C814DA4346005207D4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		252A56C814DA4346005207D4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				252A56C914DA4346005207D4 /* AppKit.framework */,
+				252A56CA14DA4346005207D4 /* CoreData.framework */,
+				252A56CB14DA4346005207D4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		252A56CC14DA4346005207D4 /* JSONViewer */ = {
+			isa = PBXGroup;
+			children = (
+				252A56D814DA4346005207D4 /* AppDelegate.h */,
+				252A56D914DA4346005207D4 /* AppDelegate.m */,
+				252A56DB14DA4346005207D4 /* MainMenu.xib */,
+				252A56E314DA43AB005207D4 /* JSONViewerWindow.xib */,
+				252A56E514DA4402005207D4 /* JSONViewerWindowController.h */,
+				252A56E614DA4402005207D4 /* JSONViewerWindowController.m */,
+				252A56CD14DA4346005207D4 /* Supporting Files */,
+			);
+			path = JSONViewer;
+			sourceTree = "<group>";
+		};
+		252A56CD14DA4346005207D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				252A56CE14DA4346005207D4 /* JSONViewer-Info.plist */,
+				252A56CF14DA4346005207D4 /* InfoPlist.strings */,
+				252A56D214DA4346005207D4 /* main.m */,
+				252A56D414DA4346005207D4 /* JSONViewer-Prefix.pch */,
+				252A56D514DA4346005207D4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		252A56C114DA4346005207D4 /* JSONViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252A56E014DA4346005207D4 /* Build configuration list for PBXNativeTarget "JSONViewer" */;
+			buildPhases = (
+				252A56BE14DA4346005207D4 /* Sources */,
+				252A56BF14DA4346005207D4 /* Frameworks */,
+				252A56C014DA4346005207D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONViewer;
+			productName = JSONViewer;
+			productReference = 252A56C214DA4346005207D4 /* JSONViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		252A56B914DA4346005207D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 252A56BC14DA4346005207D4 /* Build configuration list for PBXProject "JSONViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 252A56B714DA4346005207D4;
+			productRefGroup = 252A56C314DA4346005207D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				252A56C114DA4346005207D4 /* JSONViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		252A56C014DA4346005207D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252A56D114DA4346005207D4 /* InfoPlist.strings in Resources */,
+				252A56D714DA4346005207D4 /* Credits.rtf in Resources */,
+				252A56DD14DA4346005207D4 /* MainMenu.xib in Resources */,
+				252A56E414DA43AB005207D4 /* JSONViewerWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		252A56BE14DA4346005207D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252A56D314DA4346005207D4 /* main.m in Sources */,
+				252A56DA14DA4346005207D4 /* AppDelegate.m in Sources */,
+				252A56E714DA4402005207D4 /* JSONViewerWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		252A56CF14DA4346005207D4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				252A56D014DA4346005207D4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		252A56D514DA4346005207D4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				252A56D614DA4346005207D4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		252A56DB14DA4346005207D4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				252A56DC14DA4346005207D4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		252A56DE14DA4346005207D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		252A56DF14DA4346005207D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		252A56E114DA4346005207D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSONViewer/JSONViewer-Prefix.pch";
+				INFOPLIST_FILE = "JSONViewer/JSONViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		252A56E214DA4346005207D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSONViewer/JSONViewer-Prefix.pch";
+				INFOPLIST_FILE = "JSONViewer/JSONViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		252A56BC14DA4346005207D4 /* Build configuration list for PBXProject "JSONViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252A56DE14DA4346005207D4 /* Debug */,
+				252A56DF14DA4346005207D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		252A56E014DA4346005207D4 /* Build configuration list for PBXNativeTarget "JSONViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252A56E114DA4346005207D4 /* Debug */,
+				252A56E214DA4346005207D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 252A56B914DA4346005207D4 /* Project object */;
+}
