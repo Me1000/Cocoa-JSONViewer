@@ -90,6 +90,15 @@
             return value;
         else
         {
+            /*
+             NSOutlineView keeps a weak reference to nodes in the outlineview.
+             Because of this, we can't just return a newly created string, we have to keep it around
+             somewhere. So we construct the new string, see if we've already got a string equal to that
+             and if we do, return that reference... othewise, keep the new string arround for future
+             use. It sucks, but that's what we gotta do.
+             
+             Radar #10795076
+            */
             NSString *newValue = [NSString stringWithFormat:@"%@: %@", [keys objectAtIndex:index], value];
             NSInteger index = [dictValueStrings indexOfObject:newValue];
             
