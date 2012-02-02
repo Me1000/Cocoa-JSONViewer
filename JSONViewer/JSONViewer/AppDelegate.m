@@ -26,4 +26,9 @@
     [windowControllers addObject:controller];
 }
 
+- (void)removeController:(NSWindowController *)controller
+{
+    [windowControllers removeObject:controller];
+}
+
 @end

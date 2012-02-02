@@ -16,5 +16,5 @@
 @property (assign) IBOutlet NSWindow *window;
 
 - (IBAction)newWindow:(id)sender;
-
+- (void)removeController:(NSWindowController *)controller;
 @end

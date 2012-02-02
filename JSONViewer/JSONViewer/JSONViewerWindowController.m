@@ -7,6 +7,7 @@
 //
 
 #import "JSONViewerWindowController.h"
+#import "AppDelegate.h"
 
 @implementation JSONViewerWindowController
 
@@ -32,6 +33,11 @@
     [super windowDidLoad];
     
     // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
+}
+
+- (void)close
+{
+    [[NSApp delegate] removeController:self];
 }
 
 - (IBAction)viewJSON:(id)sender
