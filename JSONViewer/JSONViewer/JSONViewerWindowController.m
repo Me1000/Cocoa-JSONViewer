@@ -55,17 +55,14 @@
     [self.window.contentView addSubview:sv];
     [self.tvsv removeFromSuperview];
     [outlineView reloadData];
+    [sender removeFromSuperview];
 }
 
 - (NSInteger)outlineView:(NSOutlineView *)outlineView numberOfChildrenOfItem:(id)node
 {
     if (!node)
-    {
-        //NSLog(@"Children: %ld", [content count]);
-        return 1;//[content count];
-    }
+        return 1;
 
-    NSLog(@"node: %@", node);
 
     if ([node isKindOfClass:[NSArray class]] || [node isKindOfClass:[NSDictionary class]])
         return [node count];
